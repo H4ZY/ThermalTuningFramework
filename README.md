@@ -40,12 +40,12 @@ Use the PiP camera index, the same one used in RenderTargets.
 
 ### Camera references
 **Fullscreen or ADS**
-int camId = world.GetCurrentCameraId();
+`int camId = world.GetCurrentCameraId();`
 
 
 **PiP**
 Use your PiP camera index:
-m_iCameraIndex
+`m_iCameraIndex`
 
 
 ### Enabling and disabling
