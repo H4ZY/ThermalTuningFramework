@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.557 1 0.191 1
+ Emissive 0.316 1 0 0
+ EmissiveLV 6
+ TIThermalProfile "{6E5AC761EBDB2E07}system/thermal/thermalAmmoProfile.conf"
+ SpecularMul 5
+ RoughnessScale 0.55
+ AOScale 0
+}

@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 6
+ TIThermalProfile "{6E5AC761EBDB2E07}system/thermal/thermalAmmoProfile.conf"
+ SpecularMul 4.21
+ RoughnessScale 0.794
+ AOScale 0
+}

@@ -1,0 +1,25 @@
+Particle {
+ Color 1 1 1 1
+ AlbedoMap "{14BFCA25647E8E20}Particles/_Textures/Smoke_loop_1_BCA.edds"
+ NormalMap "{ECDF6CF529CBA04F}Particles/_Textures/Smoke_loop_NRM.edds"
+ Diffuse 0.216 0.216 0.216 1
+ Ambient 0.305 0.305 0.305 1
+ EmissiveAbsoluteLV 0
+ ReceiveShadow 1
+ ReceiveProbesLighting 1
+ ReceiveLights 1
+ TileU 8
+ TileV 16
+ SphereSizeMultiplier 0
+ NormalStretching 0
+ Backlight 0.9
+ BacklightStretching 0.5
+ Softness 0.3
+ DepthScale 0.3
+ CameraBlendNear 0.5
+ CameraBlendFar 2
+ TIVisibility Always
+ TIBlendMode AlphaBlend
+ TempCoefMult 5.248
+ TempCoefToAlpha 0
+}

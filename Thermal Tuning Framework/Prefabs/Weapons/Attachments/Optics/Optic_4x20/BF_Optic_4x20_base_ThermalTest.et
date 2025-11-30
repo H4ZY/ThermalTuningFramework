@@ -1,0 +1,24 @@
+GenericEntity : "{F358F46ADA42A197}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_4x20_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{6B24A09BE3C4B65A}Assets/SightPIP_Exemple/ScopeThermal.xob"
+  }
+  SCR_BF_ThermalPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsPosition PointInfo "{5D0CC83435B55853}" {
+    Offset 0 0 -0.0483
+   }
+   SightsPointFront PointInfo "{58C8F99221BE26D6}" {
+    PivotID "eye"
+    Offset 0 0 0.0521
+   }
+   SightsPointRear PointInfo "{58C8F99221BE26D0}" {
+    PivotID "eye"
+    Offset 0 0 0.0892
+   }
+   m_fMagnification 1
+   m_fReticleBaseZoom 100
+   m_rScopeThermalMaterial "{74E71247FB271851}UI/Materials/Editor/Exemple_Material.emat"
+  }
+ }
+}

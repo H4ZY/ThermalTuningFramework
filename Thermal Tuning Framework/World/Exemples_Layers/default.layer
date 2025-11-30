@@ -1,0 +1,78 @@
+SCR_GameModeEditor GameMode_Editor_Full1 : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 2867.042 34.215 3064.606
+}
+ParticleEffectEntity {
+ coords 3147.158 11.363 2776.722
+ EffectPath "{43DA98F1F069322E}Particles/Particle_Exemple.ptc"
+}
+Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ coords 3133.959 11.744 2761.2
+}
+$grp GenericEntity : "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" {
+ {
+  components {
+   MeshObject "{584EE65D3CECF5AE}" {
+    Materials {
+     MaterialAssignClass "{5AB4B4F366E8F039}" {
+      SourceMaterial "DummyMaterial"
+      AssignedMaterial "{F21CA7DA8F606EEF}system/wbdata/materials/Exemple_Material_01.emat"
+     }
+    }
+   }
+  }
+  coords 3172.527 12.142 2810.985
+  angles 0 41.801 0
+ }
+ {
+  components {
+   MeshObject "{584EE65D3CECF5AE}" {
+    Materials {
+     MaterialAssignClass "{5AB4B4F366E8F039}" {
+      SourceMaterial "DummyMaterial"
+      AssignedMaterial "{ACF48E9930EDE0E0}system/wbdata/materials/Exemple_Material_02.emat"
+     }
+    }
+   }
+  }
+  coords 3170.456 12.142 2808.668
+  angles 0 41.801 0
+ }
+ {
+  coords 3168.497 12.142 2806.477
+  angles 0 41.801 0
+ }
+ {
+  components {
+   MeshObject "{584EE65D3CECF5AE}" {
+    Materials {
+     MaterialAssignClass "{5AB4B4F366E8F039}" {
+      SourceMaterial "DummyMaterial"
+      AssignedMaterial "{58FCC9013D308894}system/wbdata/materials/Exemple_Material_03.emat"
+     }
+    }
+   }
+  }
+  coords 3166.41 12.142 2804.143
+  angles 0 41.801 0
+ }
+ {
+  components {
+   MeshObject "{584EE65D3CECF5AE}" {
+    Materials {
+     MaterialAssignClass "{5AB4B4F366E8F039}" {
+      SourceMaterial "DummyMaterial"
+      AssignedMaterial "{1124DC1E4FF6FCFE}system/wbdata/materials/Exemple_Material_04.emat"
+     }
+    }
+   }
+  }
+  coords 3164.408 12.142 2801.904
+  angles 0 41.801 0
+ }
+}
+GenericEntity : "{9CF16B0304FA0EF0}Prefabs/Weapons/Attachments/Optics/Optic_4x20/BF_Optic_4x20_base_ThermalTest.et" {
+ coords 3160.179 12.535 2797.892
+}
+GenericEntity : "{BCCAF6DAD47AA8C7}PrefabsEditable/Auto/Props/Furniture/E_Table_02.et" {
+ coords 3160.087 11.594 2797.858
+}

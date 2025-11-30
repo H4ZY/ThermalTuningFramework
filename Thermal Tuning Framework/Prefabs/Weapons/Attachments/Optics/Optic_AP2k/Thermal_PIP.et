@@ -1,0 +1,33 @@
+GameEntity : "{63F535DB856C4840}Prefabs/Weapons/Attachments/Optics/Optic_AP2k/Collim_AP2k_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  MeshObject "{5D369D0F663A1234}" {
+   Object "{6B24A09BE3C4B65A}Assets/SightPIP_Exemple/ScopeThermal.xob"
+  }
+  SCR_BF_ThermalPIPSightsComponent "{66FC3A610910A6C7}" {
+   SightsPosition PointInfo "{66FC3A6113A397D6}" {
+    PivotID "eye"
+   }
+   SightsPointFront PointInfo "{66FC3A6116161834}" {
+    PivotID "eye"
+    Offset 0 0 0.0663
+   }
+   SightsPointRear PointInfo "{66FC3A611A9BD31D}" {
+    PivotID "eye"
+    Offset 0 0 0.0835
+   }
+   SightsPartialHideADS 1
+   SightsPartialFreelookFactor 0.599
+   m_rScopeThermalMaterial "{74E71247FB271851}UI/Materials/Editor/Exemple_Material.emat"
+  }
+  SCR_CollimatorSightsComponent "{5D0CC83435B55855}" {
+   Enabled 0
+   components {
+    SCR_CollimatorControllerComponent "{5D369D0BB1149DFD}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 0 0 -0.004
+}

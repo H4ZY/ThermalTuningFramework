@@ -1,0 +1,15 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{58F8DC79D093C81C}" {
+   components {
+    SAS_Thermal2DSightsComponent "{58F8DC79D093C819}" {
+     m_rScopeThermalMaterial "{96E5773D77E4C024}UI/Materials/Editor/LAV25_Thermal.emat"
+    }
+    SAS_Thermal2DSightsComponent "{64B2C87305F2A8AC}" {
+     m_rScopeThermalMaterial "{96E5773D77E4C024}UI/Materials/Editor/LAV25_Thermal.emat"
+    }
+   }
+  }
+ }
+}

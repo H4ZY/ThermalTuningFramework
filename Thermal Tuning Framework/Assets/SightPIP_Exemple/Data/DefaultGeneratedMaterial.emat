@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 6
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{9831BCAAA3CFC846}Assets/SightPIP_Exemple/Data/DefaultMaterial_E.edds"
+ BCRMap "{8AD331CD91A42375}Assets/SightPIP_Exemple/Data/DefaultMaterial_BCR.edds"
+ NMOMap "{B20B8A5F48D371EB}Assets/SightPIP_Exemple/Data/DefaultMaterial_NMO.edds"
+}

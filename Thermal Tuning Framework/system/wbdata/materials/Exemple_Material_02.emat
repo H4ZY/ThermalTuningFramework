@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.502 0.502 0.502 1
+ CastShadow 1
+ ReceiveShadow 1
+ TIThermalProfile "{0EBADC768AD3376A}system/thermal/thermalProfile_Cold_02.conf"
+ MetalnessScale 0
+ BCRMap "{FBA9C74FBA4D1335}system/textures/defaultGround_BCR.edds"
+}

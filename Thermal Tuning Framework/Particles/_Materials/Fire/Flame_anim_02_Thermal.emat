@@ -1,0 +1,14 @@
+Particle {
+ AlbedoMap "{3C7A8F568F59501D}Particles/_Textures/Flame_anim_02_BCA.edds"
+ Emissive 1 1 1 0
+ EmissiveLV 11
+ EmissiveAbsoluteLV 0
+ AlphaToEmissiveLV PerPixel
+ ReceiveShadow 1
+ TileU 4
+ TileV 8
+ SphereSizeMultiplier 0.15
+ Softness 0.5
+ TIVisibility Always
+ TIBlendMode AlphaBlend
+}

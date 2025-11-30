@@ -1,0 +1,16 @@
+Particle {
+ AlbedoMap "{6DC01C970C666078}Particles/_Textures/Fire_Loop_01.edds"
+ Emissive 0.443 0.285 0.2 0
+ EmissiveLV 20
+ EmissiveAbsoluteLV 0
+ AlphaToEmissiveLV PerPixel
+ ReceiveShadow 1
+ TileU 8
+ TileV 8
+ SphereSizeMultiplier 0.3
+ Softness 0.3
+ DepthScale 1.5
+ TIVisibility Always
+ TIBlendMode AlphaBlend
+ Temperature 130.33
+}
